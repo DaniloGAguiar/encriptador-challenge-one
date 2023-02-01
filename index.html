@@ -1,22 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador</title>
+    <title>Decodificador</title>
 </head>
 <body>
     <header>
-        <img classe="LogoAlura" src="/imagens/logoAlura.png" alt="Logo da Alura">
+        <img src="./imagens/logoAlura.png" alt="Logo da Alura">
     </header>
 
-    <section>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-    </section>
+    <main>
+        <section>
+            <textarea class="text-area" cols="40" rows="20" placeholder="Digite seu texto"></textarea>
 
-    <section>
+            <div>
+                <h4 class="informação">Apenas letras minúsculas e sem acento.           
+                </h4>
+            </div>
 
-    </section>
+            <div> falta adicionar classe botões
+                <button onclick="Encriptar()">Criptografar</button>
+                <button onclick="Desencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="mensagem" cols="40" rows="20"></textarea>
+
+            <div>
+                <button onclick="Copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
