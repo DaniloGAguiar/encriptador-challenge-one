@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
     <title>Decodificador</title>
 </head>
 <body>
@@ -13,25 +16,22 @@
 
     <main>
         <section>
-            <textarea class="text-area" cols="40" rows="20" placeholder="Digite seu texto"></textarea>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
 
             <div>
-                <h4 class="informação">Apenas letras minúsculas e sem acento.           
-                </h4>
+                <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
             </div>
 
-            <div> falta adicionar classe botões
-                <button onclick="Encriptar()">Criptografar</button>
-                <button onclick="Desencriptar()">Descriptografar</button>
+            <div class="botoes">
+                <button class="btn-encriptar"onclick="Encriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="Desencriptar()">Descriptografar</button>
             </div>
         </section>
 
         <section>
-            <textarea class="mensagem" cols="40" rows="20"></textarea>
-
-            <div>
-                <button onclick="Copiar">Copiar</button>
-            </div>
+            <textarea class="mensagem" cols="20" rows="10" placeholder="Digite seu texto"></textarea>
+            <button class="btn-copiar" onclick="Copiar">Copiar</button>
+            
         </section>
     </main>
     <script src="script.js"></script>
