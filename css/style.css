@@ -63,37 +63,44 @@ main {
     margin-top: 10px;
 }
 
-.btn-encriptar {
-    background-color: #0A3871;
-    border: 1px solid #0A3871;
+.btn-encriptar, .btn-desencriptar {
+    background-color: #789dca;
+    border: 5px solid #042a5a;
     border-radius: 24px;
     color: white;
     cursor: pointer;
+    transition: all 0.5s;
     height: 67px;
     width: 328px;
 }
 
-.btn-desencriptar {
-    background: #D8DFE8;
-    border: 1px solid #0A3871;
-    border-radius: 24px;
-    color: #0A3871;
-    cursor: pointer;
-    height: 67px;
-    margin-left: 30px;
-    width: 328px;
-}
+.btn-encriptar:hover {
+    background-color:#042a5a;
+    width: 400px;
+}  
+
+.btn-desencriptar:hover {
+    background-color: #042a5a;
+    width: 400px;
+}  
 
 .btn-copiar {
-    border: 1px solid #0A3871;
+    border: 5px solid #0A3871;
     border-radius: 24px;
     color: #0A3871;
     cursor: pointer;
+    transition: all 0.5s;
     height: 67px;
     margin-left: 108px;
     margin-top: 452px;
     position: absolute;
     width: 336px;
+}
+
+.btn-copiar:hover {
+    background-color: #042a5a;
+    color:white;
+    width: 400px;
 }
 
 .informacao {
