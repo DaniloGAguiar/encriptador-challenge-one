@@ -1,5 +1,6 @@
 const textArea = document.querySelector(".text-area");
 const mensagem = document.querySelector(".mensagem");
+//const btnCopiar = document.querySelector(".btn-copiar")
 
 // As "chaves" de criptografia que utilizaremos são:
 // `A letra "e" é convertida para "enter"`
@@ -51,3 +52,10 @@ function desencriptar(stringDesencriptada) {
     return stringDesencriptada;
 }
 
+function btnCopiar() {
+    mensagem.select();
+    document.getElementById("copiar");
+    //addEventListener('click');
+   	alert ("Seu texto foi copiado.");
+  
+}

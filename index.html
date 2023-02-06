@@ -4,36 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
-    <title>Decodificador</title>
+      
 </head>
 <body>
     <header>
-        <img src="./imagens/logoAlura.png" alt="Logo da Alura">
+        <img class="logo-alura" src="./imagens/logoAlura.png" alt="Logo da Alura">
     </header>
 
     <main>
-        <section>
-            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+        <section class="container-fluid text-center bg-footer margin">
+            <textarea class="text-area" cols="42" rows="8" placeholder="Digite seu texto"></textarea>
 
             <div>
                 <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
             </div>
 
-            <div class="botoes">
-                <button class="btn-encriptar"onclick="Encriptar()">Criptografar</button>
-                <button class="btn-desencriptar" onclick="Desencriptar()">Descriptografar</button>
+            <div class="container-fluid text-center bg-footer margin">
+                <button class="btn-encriptar"onclick="btnEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
             </div>
         </section>
 
-        <section>
-            <textarea class="mensagem" cols="20" rows="10" placeholder="Digite seu texto"></textarea>
-            <button class="btn-copiar" onclick="Copiar">Copiar</button>
+        <section class="container-fluid bg-footer margin">
+            
+                <textarea class="mensagem"  cols="20" rows="8" placeholder="Mensagem Não Encontrada"></textarea>            
+                <button class="btn-copiar" id="copiar" onclick="btnCopiar()">Copiar</button>
             
         </section>
+
     </main>
-    <script src="script.js"></script>
+    
+    <footer class="container-fluid text-center bg-footer margin">
+        <p class="copyright">&copy; Copyright Danilo G. Aguiar - 2023</p>
+           </footer>
+
+    <script src="/js/script.js"></script>
+
 </body>
 </html>
