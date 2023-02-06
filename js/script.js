@@ -40,7 +40,7 @@ function btnDesencriptar() {
 
 function desencriptar(stringDesencriptada) {
 
-    let matrizCodigo = [["e" , "enter"] , ["i" , "imes"], ["a" ,"ai"] , ["o" , "ober"], ["u" , "ufat"]];
+let matrizCodigo = [["e" , "enter"] , ["i" , "imes"], ["a" ,"ai"] , ["o" , "ober"], ["u" , "ufat"]];
     stringDesencriptada = stringDesencriptada.toLowerCase();
 
     for(let i = 0; i < matrizCodigo.length; i++) {
@@ -53,8 +53,12 @@ function desencriptar(stringDesencriptada) {
 }
 
 function btnCopiar() {
-    mensagem.select("copiar");
+    mensagem.select();
+    document.execCommand("copy");
     document.getElementById("copiar");
-      	alert ("Seu texto foi copiado.").value;
-  
+      	alert ("Seu texto foi copiado."); 
 }
+
+
+
+
