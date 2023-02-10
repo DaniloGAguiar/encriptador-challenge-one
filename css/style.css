@@ -6,15 +6,6 @@ body {
     line-height: 150%;
 }
 
-/*logo-alura {
-    
-    margin-left: 100px;
-    padding-top: 100px;
-    width:3%;
-    text-align: center;
-}
-*/
-
 header {
     margin-left: 10px;
     padding-top: 10px;
@@ -24,7 +15,7 @@ header {
 main {
     display:flex;
     margin-bottom: 50px;
-    margin-left: 0px;
+    margin-left: 80px;   
 }
 
 .text-area {
