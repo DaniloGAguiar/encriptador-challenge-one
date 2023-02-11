@@ -12,31 +12,6 @@
     width: 2%;
 }
 
-icon-git {
-    margin-right: 20px;
-    width: 35px;
-    transform: scale(1.05);
-    text-shadow: 0 0 5px #03e9f4;
-}
-
-.icon-git:hover {
-    width: 40px;
-    transform: scale(1.5);
-    border-radius: 10px
-}
-
-icon-linkedin {
-    margin-right: 20px;
-    width: 35px;
-    transform: scale(1.5);    
-}
-
-.icon-linkedin:hover {
-    width: 40px;
-    transform: scale(1.5);
-    border-radius: 10px;
-}
-
 header {
     background-color:  #E5E5E5;
     width: 100%;
@@ -128,7 +103,7 @@ main {
     cursor: pointer;
     height: 60px;
     margin-left: 108px;
-    margin-top: 420px;
+    margin-top: 440px;
     position: relative;
     width: 328px;
 }
@@ -155,11 +130,34 @@ a {
     text-shadow: 0 0 5px #03e9f4;
 }
 
-
-
 a:hover {
     text-shadow: 0 0;
     transform: scale(1.05);
     font-size: 21px;
+}
+
+icon-git {
+    margin-right: 20px;
+    width: 35px;
+    transform: scale(1.05);
+    text-shadow: 0 0 5px #03e9f4;
+}
+
+.icon-git:hover {
+    width: 40px;
+    transform: scale(1.5);
+    border-radius: 10px
+}
+
+icon-linkedin {
+    margin-right: 20px;
+    width: 35px;
+    transform: scale(1.5);    
+}
+
+.icon-linkedin:hover {
+    width: 40px;
+    transform: scale(1.5);
+    border-radius: 10px;
 }
 
