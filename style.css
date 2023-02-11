@@ -70,7 +70,7 @@ main {
 
 .mensagem {
     background: white;
-    background-image: url(/boneco.png);
+    background-image: url(boneco.png);
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
@@ -78,9 +78,9 @@ main {
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
- 
+    position: fixed; 
 }
+
 .mensagem:focus {
     outline: none;
 }
@@ -88,11 +88,6 @@ main {
 .informacao {
     color: #495057;
     font-size:18px;
-}
-
-.botoes {
-    display: flex;
-    margin-top: 10px;
 }
 
 .btn-encriptar {
@@ -112,7 +107,7 @@ main {
     color: white;
     cursor: pointer;
     height: 60px;
-    width: 328px;
+    width: 328px;    
 }
 
 
@@ -138,7 +133,7 @@ main {
     width: 328px;
 }
 
-.informacao2 {
+.informacao {
     color: #495057;
     font-size:18px;
 }
@@ -152,5 +147,19 @@ main {
 .rodape {
     bottom: 10px;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #d2691e;
+    text-shadow: 0 0 5px #03e9f4;
+}
+
+
+
+a:hover {
+    text-shadow: 0 0;
+    transform: scale(1.05);
+    font-size: 21px;
 }
 
