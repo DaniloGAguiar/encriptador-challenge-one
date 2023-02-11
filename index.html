@@ -13,37 +13,44 @@
 </head>
 <body>
     <header>
-        <img class="logo-alura" src="./imagens/logoAlura.png" alt="Logo da Alura">
+        <div>
+            <img class="logoalura" src="imagens/logoAlura.png" alt="Logo da Alura">
+        </div>
+        <div>
+            <a href="https://github.com/DaniloGAguiar" target="_blank"><img src="imagens/icons8-github-48.png" alt="Icone Github" class="icon-git"> </a>
+            <a href="https://www.linkedin.com/in/danilogaguiar/" target="_blank"><img src="imagens/icons8-linkedin-48 (1).png" alt="Icone LinkedIn" class="icon-linkedin"></a>
+        </div>
     </header>
 
     <main>
-        <section class="container-fluid text-center bg-footer margin">
-            <textarea class="text-area" cols="42" rows="8" placeholder="Digite seu texto"></textarea>
+        <section>
+            <textarea class="text-area" cols="40" rows="8" placeholder="Digite seu texto"></textarea>
 
-            <div>
-                <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+            <div class="informacao">
+                <h6>Somente letras minúsculas e sem acento.</h6>
             </div>
 
-            <div class="container-fluid text-center bg-footer margin">
+            <div class="botoes">
                 <button class="btn-encriptar"onclick="btnEncriptar()">Criptografar</button>
                 <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
             </div>
         </section>
 
-        <section class="container-fluid bg-footer margin">
-            
-                <textarea class="mensagem"  cols="20" rows="8" placeholder="Mensagem Não Encontrada"></textarea>            
+        <section>            
+            <textarea class="mensagem"  cols="20" rows="10" placeholder="Mensagem Não Encontrada"></textarea>            
+
+            <div>
                 <button class="btn-copiar" id="copiar" onclick="btnCopiar()">Copiar</button>
-            
+            </div>
         </section>
 
     </main>
     
-    <footer class="container-fluid text-center bg-footer margin">
+    <footer class="rodape">
         <p class="copyright">&copy; Copyright Danilo G. Aguiar - 2023</p>
            </footer>
 
-    <script src="/js/script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
