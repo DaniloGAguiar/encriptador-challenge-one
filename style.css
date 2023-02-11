@@ -70,7 +70,7 @@ main {
 
 .mensagem {
     background: white;
-    background-image: url(/imagens/boneco.png);
+    background-image: url(/boneco.png);
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
